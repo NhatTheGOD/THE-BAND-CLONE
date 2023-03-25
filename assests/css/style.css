@@ -1,0 +1,460 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+.white{
+  color: white !important;
+}
+.form-input-type{
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.black{
+  color: black !important; 
+}
+
+.col{
+  float: left;
+}
+
+.col-2{
+  width: 50%;
+}
+
+.col-3{
+  width: 33.33333%;
+  padding: 0 8px;
+}
+
+.col-full{
+  width: 100%;
+}
+
+
+.row{
+
+  margin-left: -8px;
+  margin-right: -8px;
+
+}
+.center{
+  text-align: center;
+}
+
+.unmg-8{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.hide{
+  display: block !important;
+}
+
+#nav{
+  display: inline-block;
+
+}
+#header{
+  height: 46.5px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#header li {
+  display: inline-block;
+  position: relative;
+  
+}
+
+#header #nav>li>a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  line-height: 46.5px;
+  padding: 0 23.25px;
+}
+
+
+#header .subnav{
+ display: none;
+ cursor: pointer;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#header .nav li{
+  cursor: pointer;
+}
+
+#header #nav>li:hover a{
+  
+  color: black;
+
+}
+
+#header li:hover .subnav{
+  display: block;
+  
+}
+
+#header #nav >li:hover{
+  background-color: #ccc;
+}
+
+#header .subnav {
+  position : absolute;
+}
+#header .subnav li {
+  background-color: #fff;
+  min-width: 170px;
+}
+
+#header #nav .subnav li a{
+  color: black;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline;
+  line-height: 38.5px;
+  padding: 0 12.25px;
+  
+}
+
+#header #nav .subnav li:hover {
+  background-color: #ccc;
+
+}
+
+.slider{
+  margin-top: 46.5px;
+  background:url('/assests/img/la.jpg') top center / cover no-repeat;
+  padding-top: 50%;
+  position: relative;
+}
+
+.nav-arrow-down{
+  size: 20px;
+}
+
+.search-btn-header{
+  line-height: 46.5px;
+  float: right;
+  color: #fff;
+  padding: 0 21px;
+  cursor: pointer;
+}
+
+.search-btn-header:hover{
+  
+  background-color: red;
+}
+
+#text-content{
+  position: absolute;
+  bottom: 47px;
+  left: 50%;
+  transform:translateX(-50%) ;
+  text-align: center;
+  color: white;
+}
+
+.head-slider{
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.descrip-slider{
+  font-size: 15px;
+}
+
+/* member band */
+
+.content-part{
+  padding: 64px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.content-header{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0; 
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.description-content{
+  font-size: 15px;
+  opacity: 0.6;
+  text-align: center;
+  padding: 15px 0; 
+
+}
+
+.description-band{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.4;
+  margin-bottom: 32px;
+
+}
+
+.member-img{
+  height: 154px;
+  text-align: center;
+  border-radius: 5%;
+  
+}
+
+
+.member-name{
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+/* tikcety part*/
+
+#ticket-part{
+  background-color: black;
+  
+}
+
+.ticket-table{
+  background-color: white;
+  margin-top: 30px ;
+  margin-bottom: 32px;
+  display: block;
+  
+}
+.ticket-table li{
+  padding: 8px 16px ;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sold-out{
+  background-color: #f44336;
+  color: white;
+  padding: 0 8px;
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.quantity{
+  display: inline-block;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 16px;
+}
+
+/* placeeeeeee */
+.place-detail{
+  background-color: white;
+  font-size: 15px;
+  padding: 0 16px;
+}
+
+.place-img{
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.place-img:hover{
+  opacity: 0.6;
+}
+
+
+.place-name{
+  padding: 15px 0 ;
+  font-weight: 700;
+}
+.place-time{
+  opacity: 0.6;
+  padding-bottom: 16px;
+}
+.place-desc{
+  line-height: 1.4;
+  padding-bottom: 16px;
+}
+.buytiket{
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.buytiket:hover{
+  background-color: #ccc;
+  color: black;
+}
+
+.input-form1{
+  
+  padding: 8px;
+
+}
+
+#contact-part i{
+  line-height: 1.4;
+}
+
+
+.send-btn{
+  padding :8px 16px;
+  background-color: black;
+  color: white;
+  float: right;
+  margin: 16px 0;
+}
+
+.contact-info{
+  padding-top: 32px;
+}
+
+.map-img{
+  width: 100%;
+}
+
+#end{
+  padding: 64px 16px;
+  text-align: center;  
+}
+.icon-end{
+  line-height:24px ;
+  opacity: 0.6;
+  display: block;
+  font-size: 24px;
+}
+
+.thankiu{
+  font-size: 15px;
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+.w3link{
+  color: blue;
+
+}
+/* buy tiket */
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.buy-ticket-form{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.header-buy-tiket-form{
+  height: 129px;
+  background-color: #009688;
+}
+
+.close-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.close-icon:hover{
+  background-color: #ccc;
+  color: black;
+}
+
+.header-buy-tiket-form>p {
+  font-size: 30px;
+  color: white;
+  padding: 42px 0;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.white-part{
+  background-color: #fff;
+}
+
+.shopping-cart {
+  padding: 15px 16px;
+}
+.many-input{
+  margin: 0 16px 16px;
+}
+
+.pay-btn{
+ font-size: 15px;
+ background-color: #009688;
+ width: 868px;
+ border: none;
+ margin: 0 16px 16px;
+ height: 55px;
+ color: white;
+}
+
+.pay-btn:hover{
+    background-color: #ccc;
+    color: #000;
+    
+}
+
+.close-btn{
+  color: white;
+  background-color: #f44336;
+  padding: 8px 16px;
+  margin: 0 16px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn:hover{
+  background-color: #ccc;
+  color: #000;
+}
+
+.need{
+  font-size: 15px;
+  float: right;
+  margin-right: 16px;
+}
+.need a{
+  color: blue;
+}
+
